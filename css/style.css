@@ -50,7 +50,7 @@ body{
     border: none;
     border-radius: 20px; /* Valor ajustável para arredondar o botão mais ou menos */
     cursor: pointer;
-    background-image: url('Asset/icons/lupa-mini-icon.png'); /* Substitua pelo caminho real para o seu ícone PNG */
+    background-image: url('../Asset/icons/lupa-mini-icon.png'); /* Substitua pelo caminho real para o seu ícone PNG */
     background-repeat: no-repeat;
     background-size: 20px; /* Tamanho ajustável do ícone */
     background-position: center; /* Posiciona o ícone no centro do botão */

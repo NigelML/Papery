@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/loginstyle.css">
+</head>
+
+<body>
+    <div id="login-container">
+        <div class="text-box">
+            <p class="identificaçao">Identificação
+            <p>
+            <p>Faça o seu login ou crie uma conta caso ainda não possua <span>cadastro</span></p>
+        </div>
+        <div class="box-container">
+            <div id="login-existing">
+                <h3>Já sou cadastrado</h3>
+                <form id="form-login">
+                    <div class="email"><label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="senha">
+                        <label for="senha">Senha:</label>
+                        <input type="password" id="senha" name="senha" required>
+
+                    </div>
+
+                    <button type="submit">Fazer Login</button>
+                </form>
+                <a href="#">Esqueceu sua senha?</a>
+            </div>
+
+            <div id="login-new">
+                <h3>Novo usuário</h3>
+                <p>Crie sua conta para fazer compras e rastrear seus pedidos.</p>
+                <button id="criar-conta">CRIE SUA CONTA</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="pg-cadastro.js"></script>
+</body>
+
+</html>
