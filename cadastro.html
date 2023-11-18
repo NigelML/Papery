@@ -1,30 +1,150 @@
-<!-- cadastro.html -->
-<div id="cadastro-container">
-    <h2>Crie sua conta</h2>
+<!DOCTYPE html>
+<html lang="pt-br">
 
-    <p>Já é Registrado? <a href="#" id="ir-para-login">Ir para o login</a></p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descrição breve do conteúdo do site">
+    <meta name="keywords" content="palavras-chave, separadas, por, vírgulas">
+    <meta name="author" content="Seu Nome">
+    <meta name="robots" content="index, follow">
 
-    <form id="form-cadastro">
-        <label for="email">Endereço de e-mail *</label>
-        <input type="email" id="email" name="email" required>
+    <!-- Favicon (substitua o caminho com o seu ícone) -->
+    <link rel="icon" href=" " type="image/png">
 
-        <label for="nome-completo">Nome Completo *</label>
-        <input type="text" id="nome-completo" name="nome-completo" required>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">   
+    <title>PaperTime</title>
+</head>
 
-        <label for="cpf">CPF *</label>
-        <input type="text" id="cpf" name="cpf" required>
+<body>
 
-        <label for="senha">Senha *</label>
-        <input type="password" id="senha" name="senha" required>
+    <!-- Cabeçalho -->
+    <header class="header-body">
+        <!-- Primeira linha -->
+        <div class="header-top">
+            <a href="index.html" id="home-page">
+                <img src="Asset/img/logo-papertime.png" alt="Logo da Loja PaperTime">
+            </a>
 
-        <label for="telefone">Telefone</label>
-        <input type="tel" id="telefone" name="telefone">
+            <div class="search-bar">
+                <!-- Mecanismo de Busca -->
+                <input type="text" placeholder="Pesquisar...">
+                <button type="button">Buscar</button>
+            </div>
 
-        <div>
-            <input type="checkbox" id="receber-promocoes" name="receber-promocoes">
-            <label for="receber-promocoes">Desejo receber promoções da PaperTime</label>
+            <div class="user-icons">
+                <!-- Área do Usuário -->
+                <a href="login.html" id="pagina-usuario">
+                    <img src="Asset/icons/usuario-icon.png" alt="Área do Usuário">
+                </a>
+
+                <!-- Carrinho de Compra -->
+                <a href="#" id="carrinho-icon">
+                    <img src="Asset/icons/carrinho-rosa-icon.png" alt="Carrinho de Compras">
+                </a>
+            </div>
         </div>
 
-        <button type="submit">Criar</button>
-    </form>
-</div>
+        <!-- Segunda linha -->
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Festa Infantil</a></li>
+                <li><a href="#">Convites Digitais</a></li>
+                <li><a href="#">Etiquetas Escolares</a></li>
+                <li><a href="#">Festa</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!----------------------------------------------------------------------------------------------------------------------------------------------------->
+    <main>
+        <!-- cadastro.html -->
+        <div id="cadastro-container">
+            <h2>Crie sua conta</h2>
+
+            <p>Já é Registrado? <a href="login.html" id="ir-para-login">Ir para o login</a></p>
+
+            <form id="form-cadastro">
+                <label for="email">Endereço de e-mail *</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="nome-completo">Nome Completo *</label>
+                <input type="text" id="nome-completo" name="nome-completo" required>
+
+                <label for="cpf">CPF *</label>
+                <input type="text" id="cpf" name="cpf" required>
+
+                <label for="senha">Senha *</label>
+                <input type="password" id="senha" name="senha" required>
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone">
+
+                <div>
+                    <input type="checkbox" id="receber-promocoes" name="receber-promocoes">
+                    <label for="receber-promocoes">Desejo receber promoções da PaperTime</label>
+                </div>
+
+                <button type="submit">Criar</button>
+            </form>
+        </div>
+    </main>
+    <!----------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!-- Rodapé (Footer) -->
+    <footer>
+        <!-- Primeira linha -->
+        <div class="footer-body">
+            <div class="footer-title">
+                <h2>PaperTime</h2>
+            </div>
+
+            <!-- Segunda linha -->
+            <div class="footer-columns">
+                <!-- Coluna 1: Categorias -->
+                <div class="footer-column">
+                    <h3>Categorias</h3>
+                    <ul>
+                        <li><a href="#">Topo de Bolo</a></li>
+                        <li><a href="#">Tags</a></li>
+                        <li><a href="#">Etiquetas </a></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 2: Conteúdo -->
+                <div class="footer-column">
+                    <h3>Conteúdo</h3>
+                    <ul>
+                        <li><a href="#">Fale Conosco</a></li>
+                        <li><a href="#">Meios de Pagamento</a></li>
+                        <li><a href="#">Política de privacidade</a></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 3: Sobre a loja -->
+                <div class="footer-column">
+                    <h3>Sobre a Loja</h3>
+                    <p>Renata é uma jovem apaixonada por decoração de festas de aniversário. Ela realiza seu sonho ao
+                        criar a loja de e-commerce "Papery". Com produtos personalizados e atendimento excepcional, sua
+                        loja ganha destaque e se torna um sucesso, oferecendo decoração única para eventos especiais</p>
+                </div>
+
+                <!-- Coluna 4: Social -->
+                <div class="footer-column">
+                    <h3>Social</h3>
+                    <img src="Asset/img/social-midia-img.png" alt="Redes sociais">
+                </div>
+            </div>
+
+            <!-- Terceira linha -->
+            <div class="footer-bottom">
+                <p>RENATA NEIVA PAGANO – EPP - CNPJ: 40.028.922/0001-04 © Todos os direitos reservados. 2023</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts JavaScript no final para melhor desempenho -->
+
+</body>
+
+</html>
