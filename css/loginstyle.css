@@ -39,6 +39,8 @@
 
 /* Estilo para a primeira coluna "Já sou cadastrado" */
 #login-existing {
+    display: block;
+    margin: 0 auto; 
     width: 45%;
     /* Ajuste conforme necessário */
     display: flex;
@@ -57,9 +59,11 @@
     /* Garante que o padding não aumente a largura total */
     margin-bottom: 10px;
     /* Espaçamento entre os elementos, ajuste conforme necessário */
+    
 }
 
 #login-existing h3 {
+    text-align: center;
     font-size: 2rem;
     font-weight: bolder;
 }
@@ -71,20 +75,26 @@ a {
     margin: 1rem;
 }
 
+#form-login label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
 #form-login input[type="email"],
 #form-login input[type="password"] {
+    width: calc(100% - 16px); /* 16px é a soma do padding (8px de cada lado) */
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #EA868F;
-    /* Cor da borda desejada */
     border-radius: 4px;
-    /* Bordas arredondadas */
     box-sizing: border-box;
-    /* Considera o preenchimento e a borda dentro da largura e altura */
 }
 
 /* Estilo para o botão "Fazer Login" */
 #login-existing button {
+    display: block; /* Garante que o botão ocupe toda a largura disponível */
+    margin: 0 auto; /* Centraliza o botão apenas na horizontal */
     padding: 10px;
     background-color: #EA868F;
     /* Cor de fundo desejada */
@@ -107,18 +117,42 @@ a {
 #login-new {
     width: 45%;
     /* Ajuste conforme necessário */
+    color:#C78E5F;
+    
+}
+#login-new h3{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
-/* Estilo para o título "Identificação" */
-#login-container h2 {
-    text-align: center;
-    color: #333;
+#login-new button {
+    display: block; /* Garante que o botão ocupe toda a largura disponível */
+    margin: 0 auto; /* Centraliza o botão apenas na horizontal */
+    margin-top: 2rem;
+    padding: 10px;
+    background-color: #C78E5F;
+    /* Cor de fundo desejada */
+    color: #fff;
+    /* Cor do texto */
+    border: none;
+    border-radius: 15px;
+    /* Bordas arredondadas */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Efeito de transição suave para a cor de fundo */
+}
+
+#login-new button:hover {
+    background-color: #DAC4A4;
+    /* Cor de fundo ao passar o mouse */
 }
 
 /* Estilo para o texto informativo abaixo do título */
 .box-container p {
     text-align: center;
-    color: #777;
+    font-size: 2rem;
 }
 
 /* Estilo para o formulário de login */

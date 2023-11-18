@@ -29,7 +29,7 @@ body{
     align-items: center; /* Alinha os itens verticalmente no centro */
     background-color: #ECECEC;
     border-radius: 50px;
-    padding: 0 5px; /* Adicionei um preenchimento para separar o ícone da borda */
+    padding: 0 5px; /* Adicionei um preenchimento para separar o ícone da borda */    
 }
 
 /* Estilizando o Campo de Busca */
