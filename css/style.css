@@ -24,7 +24,7 @@ body{
 /* Estilizando a Caixa de Busca Centralizada */
 .search-bar {
     flex: 1;
-    max-width: 33.33%; /* Limita a largura máxima a 1/3 do espaço horizontal */
+    max-width: 33.33%; /* Limita a largura máxima a 1/3 do espaço horizontal */    
     display: flex; /* Permite a divisão de espaço com o ícone */
     align-items: center; /* Alinha os itens verticalmente no centro */
     background-color: #ECECEC;

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
 /* Estilo para o container principal */
 #login-container {
     max-width: 100vh;
@@ -6,6 +8,8 @@
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .text-box {
@@ -14,6 +18,8 @@
     align-items: center;
     color: #989898;
     font-size: 1rem;
+    font-weight: bold;
+    margin: 2rem;
 }
 
 .text-box span {
@@ -53,8 +59,48 @@
     /* Espaçamento entre os elementos, ajuste conforme necessário */
 }
 
-#login-existing .email,.senha, button, a{
+#login-existing h3 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#login-existing .email,
+.senha,
+button,
+a {
     margin: 1rem;
+}
+
+#form-login input[type="email"],
+#form-login input[type="password"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #EA868F;
+    /* Cor da borda desejada */
+    border-radius: 4px;
+    /* Bordas arredondadas */
+    box-sizing: border-box;
+    /* Considera o preenchimento e a borda dentro da largura e altura */
+}
+
+/* Estilo para o botão "Fazer Login" */
+#login-existing button {
+    padding: 10px;
+    background-color: #EA868F;
+    /* Cor de fundo desejada */
+    color: #fff;
+    /* Cor do texto */
+    border: none;
+    border-radius: 8px;
+    /* Bordas arredondadas */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Efeito de transição suave para a cor de fundo */
+}
+
+#login-existing button:hover {
+    background-color: #D16B7E;
+    /* Cor de fundo ao passar o mouse */
 }
 
 /* Estilo para a segunda coluna "Novo usuário" */
