@@ -40,7 +40,7 @@
 /* Estilo para a primeira coluna "Já sou cadastrado" */
 #login-existing {
     display: block;
-    margin: 0 auto; 
+    margin: 0 auto;
     width: 45%;
     /* Ajuste conforme necessário */
     display: flex;
@@ -59,7 +59,7 @@
     /* Garante que o padding não aumente a largura total */
     margin-bottom: 10px;
     /* Espaçamento entre os elementos, ajuste conforme necessário */
-    
+
 }
 
 #login-existing h3 {
@@ -70,7 +70,7 @@
 
 #login-existing .email,
 .senha,
-button,
+#login-existing button,
 a {
     margin: 1rem;
 }
@@ -83,7 +83,8 @@ a {
 
 #form-login input[type="email"],
 #form-login input[type="password"] {
-    width: calc(100% - 16px); /* 16px é a soma do padding (8px de cada lado) */
+    width: calc(100% - 16px);
+    /* 16px é a soma do padding (8px de cada lado) */
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #EA868F;
@@ -93,8 +94,10 @@ a {
 
 /* Estilo para o botão "Fazer Login" */
 #login-existing button {
-    display: block; /* Garante que o botão ocupe toda a largura disponível */
-    margin: 0 auto; /* Centraliza o botão apenas na horizontal */
+    display: block;
+    /* Garante que o botão ocupe toda a largura disponível */
+    margin: 0 auto;
+    /* Centraliza o botão apenas na horizontal */
     padding: 10px;
     background-color: #EA868F;
     /* Cor de fundo desejada */
@@ -117,10 +120,11 @@ a {
 #login-new {
     width: 45%;
     /* Ajuste conforme necessário */
-    color:#C78E5F;
-    
+    color: #C78E5F;
+
 }
-#login-new h3{
+
+#login-new h3 {
     text-align: center;
     font-weight: bolder;
     font-size: 2rem;
@@ -128,8 +132,10 @@ a {
 }
 
 #login-new button {
-    display: block; /* Garante que o botão ocupe toda a largura disponível */
-    margin: 0 auto; /* Centraliza o botão apenas na horizontal */
+    display: block;
+    /* Garante que o botão ocupe toda a largura disponível */
+    margin: 0 auto;
+    /* Centraliza o botão apenas na horizontal */
     margin-top: 2rem;
     padding: 10px;
     background-color: #C78E5F;
