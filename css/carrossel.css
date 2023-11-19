@@ -1,0 +1,17 @@
+.carousel-container {
+    max-width: 150vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Estilo para os slides do carrossel */
+.carousel-slide {
+    display: none;
+    width: 100%;
+    transition: opacity 1s ease-in-out; /* Efeito de deslizamento (fade) */
+}
+
+/* Exibir a primeira imagem por padrão */
+#slide1 {
+    display: block;
+}
