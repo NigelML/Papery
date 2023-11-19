@@ -106,7 +106,8 @@
 
 .blocos-container .bloco .valor {
     height: 100px; /* Altura fixa para o preço */
-    color: #7E5E52;
+    color: black;
+    font-weight: bold;
 }
 
 .button-container {   
