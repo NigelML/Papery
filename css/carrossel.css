@@ -15,3 +15,38 @@
 #slide1 {
     display: block;
 }
+
+/* Adicione suas regras de estilo aqui */
+
+/* Adicione suas regras de estilo aqui */
+
+.blocos-container {
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 150vh; /* Define a largura máxima */    
+}
+
+.botoes-seta img,
+.blocos {
+    display: flex;
+}
+
+.bloco {
+    border: 1px solid #FFFDFD;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+.bloco img {
+    max-width: 100%;
+    height: auto;
+}
+
+.titulo {
+    color: #7E5E52;
+}
+
