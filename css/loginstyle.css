@@ -71,7 +71,7 @@
 #login-existing .email,
 .senha,
 #login-existing button,
-a {
+#login-existing a {
     margin: 1rem;
 }
 
