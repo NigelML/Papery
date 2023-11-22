@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descrição breve do conteúdo do site">
+    <meta name="keywords" content="palavras-chave, separadas, por, vírgulas">
+    <meta name="author" content="Seu Nome">
+    <meta name="robots" content="index, follow">
+
+    <!-- Favicon (substitua o caminho com o seu ícone) -->
+    <link rel="icon" href=" " type="image/png">
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/meu-perfil.css">
+    <title>PaperTime</title>
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="header-body">
+        <!-- Primeira linha -->
+        <div class="header-top">
+            <a href="index.html" id="home-page">
+                <img src="Asset/img/logo-papertime.png" alt="Logo da Loja PaperTime">
+            </a>
+
+            <div class="search-bar">
+                <!-- Mecanismo de Busca -->
+                <input type="text" placeholder="Pesquisar...">
+                <button type="button">Buscar</button>
+            </div>
+
+            <div class="user-icons">
+                <!-- Área do Usuário -->
+                <a href="login.html" id="pagina-usuario">
+                    <img src="Asset/icons/usuario-icon.png" alt="Área do Usuário">
+                </a>
+
+                <!-- Carrinho de Compra -->
+                <a href="#" id="carrinho-icon">
+                    <img src="Asset/icons/carrinho-rosa-icon.png" alt="Carrinho de Compras">
+                </a>
+            </div>
+        </div>
+
+        <!-- Segunda linha -->
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Festa Infantil</a></li>
+                <li><a href="#">Convites Digitais</a></li>
+                <li><a href="#">Etiquetas Escolares</a></li>
+                <li><a href="#">Festa</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!----------------------------------------------------------------------------------------------------------------------------------------------------->
+    <main>
+
+        <div class="profile-container">
+            <div class="header-profile">
+                <div class="title">
+                    <h2>Minha Conta</h2>
+                    <h2 id="nome-usuario">Bem-vindo, Renata!</h2>
+                </div>
+                <a href="#" class="logout-link">Sair</a>
+            </div>
+            <div class="caixa-histórico">
+                <div class="box-content">
+                    <img src="Asset/icons/BagCheckFill.png" alt="Ícone de Histórico de Vendas">
+                    <p>Histórico de Vendas</p>
+                </div>
+
+                <div class="sales-history-list">
+                    <p>Não possui histórico de vendas</p>
+                </div>
+            </div>
+            <div class="caixa-opcoes">
+                <div>
+                    <div class="box">
+                        <div class="box-content">
+                            <img src="Asset/icons/cartao.png" alt="Ícone de Histórico de Vendas">
+                            <p>Formas de Pagamento</p>
+                        </div>
+
+                        <div class="white-box">
+                            <button class="botao-branco">Cartões de Crédito<img src="Asset/icons/maior.png"></button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-content">
+                            <img src="Asset/icons/heart.png" alt="Ícone de Histórico de Vendas">
+                            <p>Lista de Desejos</p>
+                        </div>
+
+                        <div class="white-box">
+                            <button class="botao-branco">Favoritos <img src="Asset/icons/maior.png"></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-content">
+                        <img src="Asset/icons/Gear.png" alt="Ícone de Histórico de Vendas">
+                        <p>Configurações</p>
+                    </div>
+
+                    <div class="white-box">
+                        <button class="botao-branco">Login e Segurança  <img src="Asset/icons/maior.png"></button>
+                        <button class="botao-branco">Endereços <img src="Asset/icons/maior.png"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!----------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!-- Rodapé (Footer) -->
+    <footer>
+        <!-- Primeira linha -->
+        <div class="footer-body">
+            <div class="footer-title">
+                <h2>PaperTime</h2>
+            </div>
+
+            <!-- Segunda linha -->
+            <div class="footer-columns">
+                <!-- Coluna 1: Categorias -->
+                <div class="footer-column">
+                    <h3>Categorias</h3>
+                    <ul>
+                        <li><a href="#">Topo de Bolo</a></li>
+                        <li><a href="#">Tags</a></li>
+                        <li><a href="#">Etiquetas </a></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 2: Conteúdo -->
+                <div class="footer-column">
+                    <h3>Conteúdo</h3>
+                    <ul>
+                        <li><a href="#">Fale Conosco</a></li>
+                        <li><a href="#">Meios de Pagamento</a></li>
+                        <li><a href="#">Política de privacidade</a></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 3: Sobre a loja -->
+                <div class="footer-column">
+                    <h3>Sobre a Loja</h3>
+                    <p>Renata é uma jovem apaixonada por decoração de festas de aniversário. Ela realiza seu sonho ao
+                        criar a loja de e-commerce "PaperTime". Com produtos personalizados e atendimento excepcional,
+                        sua
+                        loja ganha destaque e se torna um sucesso, oferecendo decoração única para eventos especiais</p>
+                </div>
+
+                <!-- Coluna 4: Social -->
+                <div class="footer-column">
+                    <h3>Social</h3>
+                    <img src="Asset/img/social-midia-img.png" alt="Redes sociais">
+                </div>
+            </div>
+
+            <!-- Terceira linha -->
+            <div class="footer-bottom">
+                <p>RENATA NEIVA PAGANO – EPP - CNPJ: 40.028.922/0001-04 © Todos os direitos reservados. 2023</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts JavaScript no final para melhor desempenho -->
+
+    <script>
+
+    </script>
+</body>
+
+</html>

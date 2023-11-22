@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+.profile-container {
+    text-align: center;
+    max-width: 100vh;
+    margin: 0 auto;
+    padding: 1rem 4rem;
+}
+
+.header-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: #7E5E52;
+    text-align: left;    
+}
+
+.title h2 {
+    margin: 5px 0;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logout-link {
+    text-decoration: none;
+    color: #7E5E52;
+    font-weight: bold;
+}
+
+.box-content {
+    background-color: #E35D6A;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.box-content img {
+    width: 30px; /* Ajuste conforme necessário */
+    height: auto;
+    margin-right: 10px;
+}
+.sales-history-list {    
+    height: 184px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sales-history-list p {
+    color: #7E5E52;   
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.caixa-opcoes{
+    display: flex;
+    justify-content: space-between;
+}
+.caixa-opcoes .box-content{
+    height: 25px;
+}
+.box{    
+    width: 380px;
+}
+.white-box{    
+    display: flex;    
+    flex-direction: column;
+    min-height: 200px;
+}
+
+.caixa-opcoes button{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    margin: auto auto;
+    background-color: white;    
+    border-color: #7E5E52;
+    color: #7E5E52;    
+    align-items: center;
+    font-size: 1rem;
+    justify-content: space-around;    
+}
