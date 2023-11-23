@@ -24,4 +24,3 @@ document.addEventListener('DOMContentLoaded', function () {
     // Carregar a página inicial por padrão
     carregarPaginaHome();
 });
-

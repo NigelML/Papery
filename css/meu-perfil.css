@@ -62,13 +62,13 @@
 
 .caixa-opcoes{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .caixa-opcoes .box-content{
     height: 25px;
 }
 .box{    
-    width: 380px;
+    width: 300px;
 }
 .white-box{    
     display: flex;    

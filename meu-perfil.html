@@ -65,9 +65,9 @@
             <div class="header-profile">
                 <div class="title">
                     <h2>Minha Conta</h2>
-                    <h2 id="nome-usuario">Bem-vindo, Renata!</h2>
+                    <h2 id="nome-usuario"></h2>
                 </div>
-                <a href="#" class="logout-link">Sair</a>
+                <a href="index.html" class="logout-link">Sair</a>
             </div>
             <div class="caixa-histórico">
                 <div class="box-content">
@@ -88,17 +88,19 @@
                         </div>
 
                         <div class="white-box">
-                            <button class="botao-branco">Cartões de Crédito<img src="Asset/icons/maior.png"></button>
+                            <button id="cartao" class="botao-branco">Cartões de Crédito<img
+                                    src="Asset/icons/maior.png"></button>
                         </div>
                     </div>
                     <div class="box">
                         <div class="box-content">
-                            <img src="Asset/icons/heart.png" alt="Ícone de Histórico de Vendas">
+                            <img src="Asset/icons/Heart.png" alt="Ícone de Histórico de Vendas">
                             <p>Lista de Desejos</p>
                         </div>
 
                         <div class="white-box">
-                            <button class="botao-branco">Favoritos <img src="Asset/icons/maior.png"></button>
+                            <button id="favoritos" class="botao-branco">Favoritos <img
+                                    src="Asset/icons/maior.png"></button>
                         </div>
                     </div>
                 </div>
@@ -110,8 +112,9 @@
                     </div>
 
                     <div class="white-box">
-                        <button class="botao-branco">Login e Segurança  <img src="Asset/icons/maior.png"></button>
-                        <button class="botao-branco">Endereços <img src="Asset/icons/maior.png"></button>
+                        <button id="seguranca" class="botao-branco">Login e Segurança <img
+                                src="Asset/icons/maior.png"></button>
+                        <button id="endereco" class="botao-branco">Endereços <img src="Asset/icons/maior.png"></button>
                     </div>
                 </div>
             </div>
@@ -173,10 +176,19 @@
         </div>
     </footer>
     <!-- Scripts JavaScript no final para melhor desempenho -->
-
     <script>
-
+        document.addEventListener('DOMContentLoaded', function () {
+            // Adiciona um evento de clique ao botão "CRIE SUA CONTA"
+            var botaoCriarConta = document.getElementById('favoritos');
+            if (botaoCriarConta) {
+                botaoCriarConta.addEventListener('click', function () {
+                    // Redireciona para a página de cadastro.html
+                    window.location.href = 'listaDesejos.html';
+                });
+            }
+        });
     </script>
+    <script src="./js/meu-perfil.js"></script>
 </body>
 
 </html>
